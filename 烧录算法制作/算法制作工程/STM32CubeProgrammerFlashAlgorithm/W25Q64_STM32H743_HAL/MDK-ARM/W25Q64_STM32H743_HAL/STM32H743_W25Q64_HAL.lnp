@@ -1,0 +1,18 @@
+--cpu Cortex-M7.fp.dp
+".\w25q64_stm32h743_hal\loader_src.o"
+".\w25q64_stm32h743_hal\dev_inf.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_msp.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_cortex.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_gpio.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_pwr.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_pwr_ex.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_qspi.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_rcc.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_rcc_ex.o"
+".\w25q64_stm32h743_hal\stm32h7xx_hal_mdma.o"
+".\w25q64_stm32h743_hal\system_stm32h7xx.o"
+--strict --scatter ".\Target.lin"
+--diag_suppress L6305 --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32H743_W25Q64_HAL.map" -o .\W25Q64_STM32H743_HAL\STM32H743_W25Q64_HAL.axf

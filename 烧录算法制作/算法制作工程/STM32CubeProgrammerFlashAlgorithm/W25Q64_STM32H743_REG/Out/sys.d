@@ -1,0 +1,9 @@
+.\out\sys.o: devices\SYSTEM\sys\sys.c
+.\out\sys.o: devices\SYSTEM\sys\sys.h
+.\out\sys.o: devices\SYSTEM\sys\stm32h7xx.h
+.\out\sys.o: devices\SYSTEM\sys\stm32h743xx.h
+.\out\sys.o: devices\SYSTEM\sys\core_cm7.h
+.\out\sys.o: C:\Users\keil5\app\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\sys.o: devices\SYSTEM\sys\cmsis_compiler.h
+.\out\sys.o: devices\SYSTEM\sys\cmsis_armcc.h
+.\out\sys.o: devices\SYSTEM\sys\system_stm32h7xx.h

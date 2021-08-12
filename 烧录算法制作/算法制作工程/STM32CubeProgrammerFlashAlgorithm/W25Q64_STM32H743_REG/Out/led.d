@@ -1,0 +1,10 @@
+.\out\led.o: devices\HARDWARE\LED\led.c
+.\out\led.o: devices\HARDWARE\LED\led.h
+.\out\led.o: .\devices\SYSTEM\sys\sys.h
+.\out\led.o: .\devices\SYSTEM\sys\stm32h7xx.h
+.\out\led.o: .\devices\SYSTEM\sys\stm32h743xx.h
+.\out\led.o: .\devices\SYSTEM\sys\core_cm7.h
+.\out\led.o: C:\Users\keil5\app\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\led.o: .\devices\SYSTEM\sys\cmsis_compiler.h
+.\out\led.o: .\devices\SYSTEM\sys\cmsis_armcc.h
+.\out\led.o: .\devices\SYSTEM\sys\system_stm32h7xx.h
