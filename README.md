@@ -158,3 +158,6 @@ struct StorageInfo const StorageInfo  =  {
 
 Tips：如果 ST-Link 版本过低也可能导致烧录失败，可以点击 `Firmware upgrade` 来升级一下 ST-Link 的固件。
 
+---
+
+[Github 仓库链接](https://github.com/ChrisZ-NJU/STM32CubeProg_Algorithm.git)
